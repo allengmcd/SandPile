@@ -36,8 +36,8 @@ redraw(void)
     /* clear color and depth buffers */
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-	const unsigned int W = 100;
-	const unsigned int H = 100;
+	const unsigned int W = 300;
+	const unsigned int H = 300;
 
     unsigned int data[H][W][3];
     for( size_t y = 0; y < H; ++y )
